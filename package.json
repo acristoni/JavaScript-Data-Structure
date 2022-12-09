@@ -1,0 +1,12 @@
+{
+  "name": "javascript-data-structure",
+  "version": "1.0.0",
+  "description": "Repository used to train data structure with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adonai Cristoni",
+  "license": "ISC",
+  "type": "module"
+}

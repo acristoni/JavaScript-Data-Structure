@@ -8,9 +8,8 @@ function getOccurrence(array, value) {
 
 function lonelyinteger(a) {
     const setA = new Set(a)
-    const queries = [...setA]
 
-    for (const query of queries) {
+    for (const query of setA) {
         let occurrence = getOccurrence(a, query)
 
         if (occurrence === 1) {

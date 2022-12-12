@@ -61,3 +61,13 @@ const twoDimensionArray = [
     [10,8,-12, 5],
     [4,5,6,5],
 ]
+
+//IGUALDADE ENTRE ARRAYS
+const arr1 = [1, 2, 3]
+const arr2 = [1, 2, 3]
+const arr3 = [1, 5, 6]
+function checkArrays(a1, a2) {
+    return JSON.stringify(a1) === JSON.stringify(a2);
+}
+console.log(checkArrays(arr1, arr2)) // true
+console.log(checkArrays(arr1, arr3)) // false

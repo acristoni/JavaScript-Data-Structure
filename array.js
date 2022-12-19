@@ -71,3 +71,6 @@ function checkArrays(a1, a2) {
 }
 console.log(checkArrays(arr1, arr2)) // true
 console.log(checkArrays(arr1, arr3)) // false
+
+//SOMA DOS ELEMENTOS DE UM ARRAY
+let rightSum = arr.reduce((a,b) => a + b);

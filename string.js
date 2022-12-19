@@ -11,3 +11,15 @@ const paragraphWithoutSymbols = paragraph.replace(/[^a-zA-Z ]/g, "")
 
 // //array com as palavras de uma frase
 const arrayParagraph = paragraphWithoutSymbols.split(" ")
+
+//TRANSFORMA STRING EM ARRAY
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// expected output: "Fire-Air-Water"

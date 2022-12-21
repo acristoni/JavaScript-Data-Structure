@@ -74,3 +74,17 @@ console.log(checkArrays(arr1, arr3)) // false
 
 //SOMA DOS ELEMENTOS DE UM ARRAY
 let rightSum = arr.reduce((a,b) => a + b);
+
+//remove ultimo elemento de um aarya
+const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+
+console.log(plants.pop());
+// expected output: "tomato"
+
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+
+plants.pop();
+
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage"]

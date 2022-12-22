@@ -7,23 +7,23 @@ const person = {
     }
 }
 
-console.log(age in person)
+// console.log(age in person)
 
-function foo() {
-    console
-}
+// function foo() {
+//     console
+// }
 
 //GET VALUE BY KEY
 // console.log(person['firstName'])
 // console.log(person.firstName)
 
 //ADD NEW VALUE AND KEY
-person.lastName = 'Cristoni'
+// person.lastName = 'Cristoni'
 // console.log(person)
 
 //DELETE VALUE
 delete person.hobbies
-// console.log(person)
+console.log(person)
 
 //access method in a object
 // person.greet()
